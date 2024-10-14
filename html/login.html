@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/registrar.css">
+    <script src="../javaScript/isLogged.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img class="VolandoUy" onclick="location.href ='../index.html' " src="../imagenes/logo-uy-png.png"/></div>
+      </header>  
+
+      <div class="content-container"> 
+        
+        
+      <div class="form-container"> 
+        
+        <form class="register-form">
+            
+            <h2>Login</h2>
+
+            <div class="from-section">
+                
+                <div class="input-container">
+                    <label for="username">Nombre Usuario</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-container">
+                    <label for="pasword">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+            </div>
+            
+            <!-- <button class="login-btn" onclick="login()" type = "submit"> Iniciar Sesión </button> -->
+            <button class="login-btn" onclick=login() type="button"> Iniciar Sesión </button>
+
+        </form>
+
+        </div>
+      </div>
+
+      <script src="../javaScript/auth.js"></script>
+      <script src="../datos/usuarios.js"></script>
+
+</body>

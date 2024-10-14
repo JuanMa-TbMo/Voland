@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VolandoUy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/consulta-usuario.css">
+     
+</head>
+
+<body>
+    <header id="main-header">
+    
+        <div class="logo"><img class="VolandoUy" onclick="location.href ='../index.html' " src="../imagenes/logo-uy-png.png"/>  </div>
+        <div class="search-container">
+          <i class="fas fa-search"></i>
+          <input type="text" class="search-bar" placeholder="Buscar...">
+          <button class="search-btn">Buscar</button>;
+        </div>
+    
+    </header>
+
+
+    <div class="content-container">
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categorías</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>America</td>
+                    </tr>
+                    <tr>
+                        <td>Temporada</td>
+                    </tr>
+                    <tr>
+                        <td>Cortos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="user-container">
+
+
+            <div class="caja-usr">
+                <div class="aero-perfil-container">
+                <button class="user-btn"  onclick="togglePerfil()">Perfil</button>
+                </div>
+                <div class="info-user-container" >
+                
+                    <!--la idea es cargar aca dentro con html respectivo
+                        osea: si es usuario(cliente o aerolinea) y esta selecionado perfil, se carga su perfil
+                        si es aerolina y seleciona Rutas: se carga info sobre sus rutas
+                        -->
+
+                </div>
+
+            </div>
+        </div>
+    
+    </div>
+
+
+    <script src="../datos/usuarios.js"></script> 
+    
+    <script src="../javaScript/consultarUsuario.js"></script>
+    <script src="../javaScript/auth.js"></script>
+
+</body>
+</html>

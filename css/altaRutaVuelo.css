@@ -1,0 +1,183 @@
+
+
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    width: 50% auto;
+    min-width: none;
+    height: 45% auto ;
+    border: 2px solid #007BFF;
+    background-color:white ;
+    border-radius: 45px;
+    padding: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    min-width: 400px;
+    min-height: 430px;
+
+}
+
+.form-container h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:#007BFF;
+}
+
+.form-container h3{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color:#007BFF;
+}
+
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.from-section{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    
+
+}
+.form-container label{
+    font-size: 1.5rem;
+    margin-right: 45px;
+    width: 45%;
+    font-size: clamp(12px, 2vw, 16px);
+    white-space: nowrap;
+    font-weight: bold;
+    color: #484848;
+    letter-spacing: 0.5px;
+    
+}
+
+.form-container label:after{
+   content: " :";
+   color: #007BFF;
+}
+.form-container label:hover{
+    color: #007BFF;
+ }
+
+ .form-container label.required::before{
+    content: " *";
+    color: red;
+    margin-right: 5px;
+ }
+ 
+ 
+
+
+.form-container input{
+    border-radius: 5px;
+    width: 45%;
+    height: 100%;
+    border: 2px solid #007BFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    max-width: 170px;
+    max-height: 22px;
+
+}
+.form-container input:hover{
+    background-color:#ddd;
+
+}
+
+
+.input-container{
+    display: flex;
+    width: 100%;
+    margin:5px;
+    margin-top:15px ;
+  
+    
+}
+
+.ruta-conteiner{
+    display: flex;
+    width: 100%;
+    margin:5px;
+    margin-top:20px ;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+.aerolinea-container{
+    display: none;
+
+}
+.cliente-container{
+    display: none;
+
+}
+.login-btn{
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+    min-width: 150px;
+}
+.select-user{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.form-control{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.select-ruta{
+    min-width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.reservar-btn{
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+    min-width: 150px;
+    border: 2px solid #007BFF;
+    padding: 5px;
+    align-self: flex-end;
+}
+
+
+
+

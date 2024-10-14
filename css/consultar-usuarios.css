@@ -1,0 +1,35 @@
+
+.user-box {
+    border: 1px solid #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    background:white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+    margin: 5px;
+}
+.user-box:hover {
+   background:#ccc ;
+   
+}
+
+.user-image-sm {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.user-container{
+    max-width: 700px !important;
+    max-height: 500px !important;
+}
