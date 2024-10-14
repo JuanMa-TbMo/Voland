@@ -1,6 +1,6 @@
 const rutas = [
     {
-    img: "../imagenes/RV03.jpg",
+    img: "imagenes/RV03.jpg",
     nombre: "AR1380",
     descripcion: "Tiempo de vuelo 1 hora, driecto y sin escalas",
     descripcionCorta: "Buenos Aires - Montevideo por Aerolíneas Argentinas (AR1380)",
@@ -19,7 +19,7 @@ const rutas = [
     },
     {
       
-      img: "../imagenes/RV04.jpg",
+      img: "imagenes/RV04.jpg",
       nombre:"AR1381",
       descripcion: "Tiempo estimado de vuelo 55 minutos.",
       descripcionCorta: "Montevideo - Buenos Aires por Aerolíneas Argentinas (AR1381)",
