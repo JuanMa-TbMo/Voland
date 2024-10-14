@@ -141,7 +141,7 @@ const vuelosContainer = document.querySelector('.vuelos');
 rutas.forEach(ruta => {
     if (ruta.nombre == rutaNombre) {
         rutaAcargar.innerHTML = `
-            <img class="ruta-img" src="${ruta.img}" alt="${ruta.nombre}">
+            <img class="ruta-img" src="../${ruta.img}" alt="${ruta.nombre}">
             <h2 class="ruta-nombre">${ruta.descripcionCorta}</h2>
             <p class="ruta-descripcion"><b>Descripción: </b>${ruta.descripcion}</p>
             <p class="ruta-origen"><b>Ciudad Origen:</b>${ruta.origen}</p>
